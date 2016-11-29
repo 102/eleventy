@@ -1,6 +1,6 @@
 {
   "name": "eleventy",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Originally derived from Tolkien's Lord of the Rings trilogy. Bilbo Baggin's eleventy-first birth day was the setting of the opening chapter. Since used by people all over the world.",
   "main": "eleventy.js",
   "scripts": {

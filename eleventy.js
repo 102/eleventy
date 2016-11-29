@@ -6,8 +6,8 @@
   if (typeof module !== 'undefined' && module.exports) {
     module.exports = eleventy;
   } else if (typeof define === 'function' && define.amd) {
-    define(five);
+    define(eleventy);
   } else if (window) {
-    window.five = five;
+    window.eleventy = eleventy;
   }
 }(110));
