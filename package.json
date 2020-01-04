@@ -4,7 +4,7 @@
   "description": "Monorepo of eleventy-related packages",
   "main": "index.js",
   "scripts": {
-    "test": "lerna run test",
+    "test": "lerna run bootstrap && lerna run test",
     "prepublish": "npm test"
   },
   "repository": {
