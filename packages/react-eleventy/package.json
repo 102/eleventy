@@ -2,7 +2,7 @@
   "name": "react-eleventy",
   "version": "1.0.1",
   "description": "A react component that returns node with 110",
-  "main": "eleventy.js",
+  "main": "Eleventy.js",
   "scripts": {
     "test": "jest"
   },

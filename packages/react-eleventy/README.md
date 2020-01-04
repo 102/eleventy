@@ -3,8 +3,14 @@
 ### Usage
 
 ```js
-import React from 'react';
-import Eleventy from 'react-eleventy';
+import React from "react";
+import ReactDOM from "react-dom";
+import Eleventy from "react-eleventy";
 
-React.
+function App() {
+  return <Eleventy />;
+}
+
+const rootElement = document.getElementById("root");
+ReactDOM.render(<App />, rootElement);
 ```
