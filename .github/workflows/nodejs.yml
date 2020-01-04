@@ -19,7 +19,6 @@ jobs:
       - name: npm install and test
         run: |
           npm install
-          npx lerna bootstrap
-          npx lerna test
+          npm test
         env:
           CI: true

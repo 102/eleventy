@@ -3,9 +3,7 @@
   "version": "1.0.2",
   "description": "A react component that returns node with 110",
   "main": "Eleventy.js",
-  "scripts": {
-    "test": "jest"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/102/eleventy.git"
@@ -17,9 +15,6 @@
   },
   "homepage": "https://github.com/102/eleventy#readme",
   "devDependencies": {
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.4.0",
-    "jest": "^24.9.0",
     "react": "^16.8.0",
     "react-dom": "^16.8.0"
   },
