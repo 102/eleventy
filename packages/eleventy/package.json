@@ -4,7 +4,7 @@
   "description": "Originally derived from Tolkien's Lord of the Rings trilogy. Bilbo Baggin's eleventy-first birth day was the setting of the opening chapter. Since used by people all over the world.",
   "main": "eleventy.js",
   "scripts": {
-    "postinstall": "rmngsv"
+    "postinstall": "node warning.js"
   },
   "repository": {
     "type": "git",
@@ -19,7 +19,5 @@
     "url": "https://github.com/102/eleventy/issues"
   },
   "homepage": "https://github.com/102/eleventy#readme",
-  "dependencies": {
-    "rmngsv": "^1.0.1"
-  }
+  "dependencies": {}
 }
