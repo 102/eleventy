@@ -1,10 +1,10 @@
 {
-  "name": "eleventy",
-  "version": "0.2.0",
-  "description": "Originally derived from Tolkien's Lord of the Rings trilogy. Bilbo Baggin's eleventy-first birth day was the setting of the opening chapter. Since used by people all over the world.",
-  "main": "eleventy.js",
+  "name": "eleventy-monorepo",
+  "version": "1.0.0",
+  "description": "Monorepo of eleventy-related packages",
+  "main": "index.js",
   "scripts": {
-    "test": "node test && echo ✔ 110 ✔",
+    "test": "lerna run test",
     "prepublish": "npm test"
   },
   "repository": {
@@ -14,10 +14,13 @@
   "keywords": [
     "eleventy"
   ],
-  "author": "Roman Gusev",
-  "license": "Unlicense",
+  "author": "Roman Gusev <rgusev2@gmail.com>",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/102/eleventy/issues"
   },
-  "homepage": "https://github.com/102/eleventy#readme"
+  "homepage": "https://github.com/102/eleventy#readme",
+  "devDependencies": {
+    "lerna": "^3.20.2"
+  }
 }
