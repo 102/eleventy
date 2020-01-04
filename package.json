@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "lerna run test",
-    "prepublish": "npm test",
-    "bootstrap": "lerna bootstrap"
+    "prepublish": "npm test"
   },
   "repository": {
     "type": "git",
