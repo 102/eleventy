@@ -4,6 +4,8 @@ version = "0.1.0"
 authors = ["Roman Gusev <rgusev2@gmail.com>"]
 edition = "2018"
 license = "MIT"
+homepage = "https://github.com/102/eleventy"
+repository = "https://github.com/102/eleventy.git"
 description = "An absolutely useless function that alway returns 110"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
