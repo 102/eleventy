@@ -1,6 +1,6 @@
 on: push
 
-name: Continuous integration
+name: Rust CI
 
 jobs:
   ci:
@@ -26,17 +26,19 @@ jobs:
       - uses: actions-rs/cargo@v1
         with:
           command: build
+          args: --manifest-path ./packages/rust-eleventy/Cargo.toml
 
       - uses: actions-rs/cargo@v1
         with:
           command: test
+          args: --manifest-path ./packages/rust-eleventy/Cargo.toml
 
       - uses: actions-rs/cargo@v1
         with:
           command: fmt
-          args: --all -- --check
+          args: --manifest-path ./packages/rust-eleventy/Cargo.toml --all -- --check
 
       - uses: actions-rs/cargo@v1
         with:
           command: clippy
-          args: -- -D warnings
+          args: --manifest-path ./packages/rust-eleventy/Cargo.toml -- -D warnings
