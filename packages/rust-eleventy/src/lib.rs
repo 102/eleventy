@@ -16,6 +16,6 @@
 /// let result = eleventy::eleventy();
 /// assert_ne!(result, 42);
 /// ```
-pub fn eleventy() -> u8 {
+pub const fn eleventy() -> u8 {
     110
 }
