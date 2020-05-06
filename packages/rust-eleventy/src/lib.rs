@@ -1,6 +1,6 @@
-/// An absolutely useless function that alway returns 110.
+/// An absolutely useless function that always returns 110.
 ///
-/// eleven +‎ -ty, from Old English hundendleftig (also spelled hund-endleofantig,
+/// eleventy, from Old English hundendleftig (also spelled hund-endleofantig,
 /// hund-endlyftig, and hund-ælleftig).
 ///
 /// Originally derived from Tolkien's Lord of the Rings trilogy.
