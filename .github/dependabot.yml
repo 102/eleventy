@@ -1,0 +1,39 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "23:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: y18n
+    versions:
+    - 4.0.1
+  - dependency-name: "@testing-library/react"
+    versions:
+    - 11.2.5
+- package-ecosystem: npm
+  directory: "/packages/eleventy"
+  schedule:
+    interval: daily
+    time: "23:00"
+  open-pull-requests-limit: 10
+- package-ecosystem: npm
+  directory: "/packages/react-eleventy"
+  schedule:
+    interval: daily
+    time: "23:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: react
+    versions:
+    - 17.0.2
+- package-ecosystem: cargo
+  directory: "/packages/rust-eleventy"
+  schedule:
+    interval: daily
+    time: "23:00"
+  open-pull-requests-limit: 10
+  reviewers:
+  - "102"
