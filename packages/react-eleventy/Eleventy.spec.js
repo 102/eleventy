@@ -1,3 +1,7 @@
+/**
+ * @jest-environment jsdom
+ */
+
 const React = require("react");
 const { render } = require("@testing-library/react");
 const Eleventy = require("./Eleventy");
