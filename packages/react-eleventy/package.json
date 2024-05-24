@@ -1,6 +1,6 @@
 {
   "name": "react-eleventy",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "A react component that returns node with 110",
   "main": "Eleventy.js",
   "typings": "Eleventy.d.ts",
@@ -24,6 +24,6 @@
     "react-dom": "^17.0.1"
   },
   "dependencies": {
-    "eleventy": "^1.0.6"
+    "eleventy": "^1.0.7"
   }
 }
