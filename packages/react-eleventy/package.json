@@ -3,6 +3,7 @@
   "version": "1.0.6",
   "description": "A react component that returns node with 110",
   "main": "Eleventy.js",
+  "typings": "Eleventy.d.ts",
   "scripts": {},
   "repository": {
     "type": "git",
