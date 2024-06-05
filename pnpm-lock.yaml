@@ -30,11 +30,11 @@ importers:
         version: link:../eleventy
     devDependencies:
       react:
-        specifier: ^17.0.1
-        version: 17.0.2
+        specifier: ^18.3.1
+        version: 18.3.1
       react-dom:
         specifier: ^17.0.1
-        version: 17.0.2(react@17.0.2)
+        version: 17.0.2(react@18.3.1)
 
 packages:
 
@@ -2410,14 +2410,14 @@ packages:
     resolution: {integrity: sha512-FIqgj2EUvTa7R50u0rGsyTftzjYmv/a3hO345bZNrqabNqjtgiDMgmo4mkUjd+nzU5oF3dClKqFIPUKybUyqoQ==}
     dev: true
 
-  /react-dom@17.0.2(react@17.0.2):
+  /react-dom@17.0.2(react@18.3.1):
     resolution: {integrity: sha512-s4h96KtLDUQlsENhMn1ar8t2bEa+q/YAtj8pPPdIjPDGBDIVNsrD9aXNWqspUe6AzKCIG0C1HZZLqLV7qpOBGA==}
     peerDependencies:
       react: 17.0.2
     dependencies:
       loose-envify: 1.4.0
       object-assign: 4.1.1
-      react: 17.0.2
+      react: 18.3.1
       scheduler: 0.20.2
     dev: true
 
@@ -2437,14 +2437,6 @@ packages:
 
   /react-is@18.3.1:
     resolution: {integrity: sha512-/LLMVyas0ljjAtoYiPqYiL8VWXzUUdThrmU5+n20DZv+a+ClRoevUzw5JxU+Ieh5/c87ytoTBV9G1FiKfNJdmg==}
-    dev: true
-
-  /react@17.0.2:
-    resolution: {integrity: sha512-gnhPt75i/dq/z3/6q/0asP78D0u592D5L1pd7M8P+dck6Fu/jJeL6iVVK23fptSUZj8Vjf++7wXA8UNclGQcbA==}
-    engines: {node: '>=0.10.0'}
-    dependencies:
-      loose-envify: 1.4.0
-      object-assign: 4.1.1
     dev: true
 
   /react@18.3.1:
