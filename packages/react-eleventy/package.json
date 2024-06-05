@@ -17,11 +17,11 @@
   "homepage": "https://github.com/102/eleventy#readme",
   "devDependencies": {
     "react": "^18.3.1",
-    "react-dom": "^17.0.1"
+    "react-dom": "^18.3.1"
   },
   "peerDependencies": {
     "react": "^18.3.1",
-    "react-dom": "^17.0.1"
+    "react-dom": "^18.3.1"
   },
   "dependencies": {
     "eleventy": "^1.0.7"
