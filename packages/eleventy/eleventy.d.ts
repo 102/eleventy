@@ -1,1 +1,1 @@
-export default function eleventy(): 110;
+export const eleventy: 110;
