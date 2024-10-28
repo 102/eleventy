@@ -3,7 +3,7 @@
 ### Usage
 
 ```js
-var eleventy = require("eleventy");
+const { eleventy } = require("eleventy");
 
 console.log(eleventy === 110);
 ```
